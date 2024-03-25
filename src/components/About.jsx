@@ -39,8 +39,8 @@ const About = () => {
             </div>
             <div className=" col-span-6">
               <div className="flex items-center gap-6">
-              <img className="mt-16" src= {aboutimg1} alt="img" />
-              <img className="w-[250px] mb-16" src= {aboutimg2} alt="img" />
+                <img className="mt-16" src={aboutimg1} alt="img" />
+                <img className="w-[250px] mb-16" src={aboutimg2} alt="img" />
               </div>
             </div>
           </div>

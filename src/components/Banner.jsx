@@ -44,23 +44,39 @@ const Banner = () => {
           <div className="w-[1100px] h-[2px] bg-madeblack mx-auto mb-[80px] mt-[80px]"></div>
           <div className="flex justify-between w-[1000px] mx-auto">
             <div className="">
-                <h2 className="text-[64px] font-inter font-normal text-madeblack">30+</h2>
-                <p className="text-[24px] font-play font-normal text-madeblack">Coffee Variant</p>
+              <h2 className="text-[64px] font-inter font-normal text-madeblack">
+                30+
+              </h2>
+              <p className="text-[24px] font-play font-normal text-madeblack">
+                Coffee Variant
+              </p>
             </div>
             <div className="w-[100px] h-[2px] bg-madeblack rotate-90 mt-[70px]"></div>
             <div className="">
-                <h2 className="text-[64px] font-inter font-normal text-madeblack">20+</h2>
-                <p className="text-[24px] font-play font-normal text-madeblack">Meeting room</p>
+              <h2 className="text-[64px] font-inter font-normal text-madeblack">
+                20+
+              </h2>
+              <p className="text-[24px] font-play font-normal text-madeblack">
+                Meeting room
+              </p>
             </div>
             <div className="w-[100px] h-[2px] bg-madeblack rotate-90 mt-[70px]"></div>
             <div className="">
-                <h2 className="text-[64px] font-inter font-normal text-madeblack">25+</h2>
-                <p className="text-[24px] font-play font-normal text-madeblack">Event space</p>
+              <h2 className="text-[64px] font-inter font-normal text-madeblack">
+                25+
+              </h2>
+              <p className="text-[24px] font-play font-normal text-madeblack">
+                Event space
+              </p>
             </div>
             <div className="w-[100px] h-[2px] bg-madeblack rotate-90 mt-[70px]"></div>
             <div className="">
-                <h2 className="text-[64px] font-inter font-normal text-madeblack">40+</h2>
-                <p className="text-[24px] font-play font-normal text-madeblack">Global Achievement</p>
+              <h2 className="text-[64px] font-inter font-normal text-madeblack">
+                40+
+              </h2>
+              <p className="text-[24px] font-play font-normal text-madeblack">
+                Global Achievement
+              </p>
             </div>
           </div>
           <div className="w-[1100px] h-[2px] bg-madeblack mx-auto mt-[80px]"></div>
