@@ -6,7 +6,7 @@ import aboutimg2 from "../assets/why2.png";
 const About = () => {
   return (
     <>
-      <section id="about" className=" bg-white pb-[80px]">
+      <section id="about" className=" bg-white">
         <div className="max-w-container mx-auto">
           <div className=" mb-[80px]">
             <h4 className="text-[24px] font-inter font-normal text-madeblack text-center mb-[8px]">
@@ -44,6 +44,7 @@ const About = () => {
               </div>
             </div>
           </div>
+          <div className="w-[1150px] h-[1px] bg-madeblack mx-auto mt-[80px]"></div>
         </div>
       </section>
     </>
