@@ -10,8 +10,8 @@ import { GoArrowDownRight } from "react-icons/go";
 const Blog = () => {
   return (
     <>
-      <section id="blog" className=" bg-white pt-[80px] pb-[80px]">
-        <div className="max-w-container mx-auto">
+      <section id="blog" className=" bg-white xl:pt-[80px] pb-[80px]">
+        <div className="max-w-container mx-auto px-3">
           <div className=" mb-[80px]">
             <h4 className="text-[24px] font-inter font-normal text-madeblack text-center mb-[8px]">
               Blog
@@ -20,9 +20,9 @@ const Blog = () => {
               Read our articles
             </h2>
           </div>
-          <div className=" grid grid-cols-12 gap-8 mb-[80px]">
-            <div className=" col-span-4">
-              <div className="w-[405px] h-[541px] px-[16px] py-[16px] border-[1px] rounded-se-[95px] rounded-es-[50px]">
+          <div className=" flex justify-between xl:flex-row flex-col lg:flex-row lg:flex-wrap  mb-[80px]">
+            <div className="">
+              <div className="xl:w-[405px] sm:w-[405px] h-[541px] px-[16px] py-[16px] border-[1px] rounded-se-[95px] rounded-es-[50px]">
                 <img src={blogimg1} alt="img" />
                 <div className="text-areya mt-[16px]">
                   <div className=" flex justify-between">
@@ -41,14 +41,14 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet consectetur. Est tempor morbi
                     pellentesque.
                   </p>
-                  <button className="flex items-center text-[16px] font-inter text-madeblack gap-[8px] ml-[241px]">
+                  <button className="flex items-center text-[16px] font-inter text-madeblack gap-[8px] xl:ml-[241px]">
                     View details <FaAngleRight />
                   </button>
                 </div>
               </div>
             </div>
-            <div className=" col-span-4">
-              <div className="w-[405px] h-[541px] px-[16px] py-[16px] border-[1px] rounded-se-[95px] rounded-es-[50px]">
+            <div className=" ">
+              <div className="xl:w-[405px] sm:w-[405px] h-[541px] px-[16px] py-[16px] border-[1px] rounded-se-[95px] rounded-es-[50px]">
                 <img src={blogimg2} alt="img" />
                 <div className="text-areya mt-[16px]">
                   <div className=" flex justify-between">
@@ -67,14 +67,14 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet consectetur. Est tempor morbi
                     pellentesque.
                   </p>
-                  <button className="flex items-center text-[16px] font-inter text-madeblack gap-[8px] ml-[241px]">
+                  <button className="flex items-center text-[16px] font-inter text-madeblack gap-[8px] xl:ml-[241px]">
                     View details <FaAngleRight />
                   </button>
                 </div>
               </div>
             </div>
-            <div className=" col-span-4">
-              <div className="w-[405px] h-[541px] px-[16px] py-[16px] border-[1px] rounded-se-[95px] rounded-es-[50px]">
+            <div className="">
+              <div className="xl:w-[405px] sm:w-[405px] h-[541px] px-[16px] py-[16px] border-[1px] rounded-se-[95px] rounded-es-[50px]">
                 <img src={blogimg3} alt="img" />
                 <div className="text-areya mt-[16px]">
                   <div className=" flex justify-between">
@@ -93,14 +93,14 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet consectetur. Est tempor morbi
                     pellentesque.
                   </p>
-                  <button className="flex items-center text-[16px] font-inter text-madeblack gap-[8px] ml-[241px]">
+                  <button className="flex items-center text-[16px] font-inter text-madeblack gap-[8px] xl:ml-[241px]">
                     View details <FaAngleRight />
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <button className="flex items-center gap-[16px] w-[280px] h-[82px] bg-common text-white font-play text-[24px] font-normal tracking-[4px] justify-center rounded-se-[30px] rounded-es-[30px] mt-[24px] ml-[41%]">
+          <button className="flex items-center gap-[16px] w-[280px] h-[82px] bg-common text-white font-play text-[24px] font-normal tracking-[4px] justify-center rounded-se-[30px] rounded-es-[30px] mt-[24px] xl:ml-[41%]">
             Read More <GoArrowDownRight />
           </button>
         </div>

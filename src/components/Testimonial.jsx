@@ -8,7 +8,7 @@ const Testimonial = () => {
   return (
     <>
       <section id="testimonial" className=" bg-white pt-[80px]">
-        <div className="max-w-container mx-auto">
+        <div className="max-w-container mx-auto px-3">
           <div className="mb-[80px]">
             <h4 className="text-[24px] font-inter font-normal text-madeblack text-center">
               Testimonial
@@ -17,8 +17,8 @@ const Testimonial = () => {
               What our buyers say
             </h2>
           </div>
-          <div className=" grid grid-cols-12 gap-16">
-            <div className=" col-span-4">
+          <div className=" flex justify-between xl:flex-row flex-col ml-[-40px] sm:flex-row flex-wrap md:flex-row ">
+            <div className="">
               <div className="w-[405px] h-[360px] py-[24px] px-[40px]">
                 <div className="flex items-center gap-[16px] mb-[16px]">
                   <img src={testimg1} alt="img" />
@@ -43,7 +43,7 @@ const Testimonial = () => {
                 </p>
               </div>
             </div>
-            <div className=" col-span-4">
+            <div className="">
               <div className="w-[405px] h-[360px] py-[24px] px-[40px]">
                 <div className="flex items-center gap-[16px] mb-[16px]">
                   <img src={testimg2} alt="img" />
@@ -68,7 +68,7 @@ const Testimonial = () => {
                 </p>
               </div>
             </div>
-            <div className=" col-span-4">
+            <div className="">
               <div className="w-[405px] h-[360px] py-[24px] px-[40px]">
                 <div className="flex items-center gap-[16px] mb-[16px]">
                   <img src={testimg3} alt="img" />
@@ -94,7 +94,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="w-[1150px] h-[1px] bg-madeblack mx-auto mt-[128px]"></div>
+          <div className="xl:w-[1150px] h-[1px] bg-madeblack mx-auto mt-[128px]"></div>
         </div>
       </section>
     </>

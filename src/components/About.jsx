@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <section id="about" className=" bg-white">
-        <div className="max-w-container mx-auto">
+        <div className="max-w-container mx-auto px-3">
           <div className=" mb-[80px]">
             <h4 className="text-[24px] font-inter font-normal text-madeblack text-center mb-[8px]">
               About us
@@ -16,8 +16,8 @@ const About = () => {
               Why we are the best
             </h2>
           </div>
-          <div className=" grid grid-cols-12 gap-[130px] items-center">
-            <div className=" col-span-6">
+          <div className=" flex gap-[100px] items-center xl:flex-row flex-col">
+            <div className=" xl:w-[50%]">
               <p className="text-[20px] font-inter font-normal text-madeblack text-justify mb-[24px]">
                 Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
                 dolor fringilla volutpat lectus amet. Integer sed pretium odio
@@ -37,14 +37,14 @@ const About = () => {
                 Read More <GoArrowDownRight />
               </button>
             </div>
-            <div className=" col-span-6">
-              <div className="flex items-center gap-6">
+            <div className=" ">
+              <div className="flex xl:flex-row flex-col sm:flex-row lg:flex-row items-center gap-6">
                 <img className="mt-16" src={aboutimg1} alt="img" />
                 <img className="w-[250px] mb-16" src={aboutimg2} alt="img" />
               </div>
             </div>
           </div>
-          <div className="w-[1150px] h-[1px] bg-madeblack mx-auto mt-[80px]"></div>
+          <div className="xl:w-[1150px] h-[1px] bg-madeblack mx-auto mt-[80px]"></div>
         </div>
       </section>
     </>

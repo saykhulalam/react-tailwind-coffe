@@ -10,14 +10,14 @@ const Products = () => {
   return (
     <>
       <section id="products" className=" bg-white mb-[80px]">
-        <div className="max-w-container mx-auto">
+        <div className="max-w-container mx-auto px-3">
           <h4 className="text-[24px] font-inter font-normal text-madeblack text-center mb-[8px]">
             Our products
           </h4>
           <h2 className="text-[36px] font-play font-normal text-madeblack text-center mb-[80px]">
             From Top Quality Materials
           </h2>
-          <div className="w-[556px] h-[77px] rounded-[40px] bg-[#F6F6F6] mx-auto flex items-center justify-center mb-[40px]">
+          <div className="xl:w-[556px] lg:w-[556px] lg:h-[77px] xl:h-[77px] h-[250px] rounded-[40px] bg-[#F6F6F6] mx-auto flex items-center justify-center mb-[40px] xl:flex-row lg:flex-row flex-col gap-5">
             <button className="w-[180px] h-[61px] hover:bg-white rounded-[40px] text-[24px] font-inter font-normal text-madeblack">
               Latte
             </button>
@@ -28,8 +28,8 @@ const Products = () => {
               Acabica
             </button>
           </div>
-          <div className=" grid grid-cols-12 gap-16">
-            <div className=" col-span-3">
+          <div className=" grid grid-cols-12 gap-16 lg:ml-20">
+            <div className=" xl:col-span-3 col-span-12 lg:col-span-6 md:col-span-6 sm:col-span-6">
               <div className=" w-[302px] h-[476px]">
                 <img src={coffe1} alt="img" />
                 <div className="pl-[24px] pr-[24px]">
@@ -61,7 +61,7 @@ const Products = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" xl:col-span-3 col-span-12 lg:col-span-6 md:col-span-6 sm:col-span-6">
               <div className=" w-[302px] h-[476px]">
                 <img src={coffe2} alt="img" />
                 <div className="pl-[24px] pr-[24px]">
@@ -93,7 +93,7 @@ const Products = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" xl:col-span-3 col-span-12 lg:col-span-6 md:col-span-6 sm:col-span-6">
               <div className=" w-[302px] h-[476px]">
                 <img src={coffe3} alt="img" />
                 <div className="pl-[24px] pr-[24px]">
@@ -125,7 +125,7 @@ const Products = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" xl:col-span-3 col-span-12 lg:col-span-6 md:col-span-6 sm:col-span-6">
               <div className=" w-[302px] h-[476px]">
                 <img src={coffe4} alt="img" />
                 <div className="pl-[24px] pr-[24px]">
@@ -158,7 +158,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="w-[1150px] h-[1px] bg-madeblack mx-auto mt-[80px]"></div>
+          <div className="xl:w-[1150px] h-[1px] bg-madeblack mx-auto mt-[80px]"></div>
         </div>
       </section>
     </>

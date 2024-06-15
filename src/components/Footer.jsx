@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <>
       <section id="footer" className=" bg-[#282A3A] pt-[80px] pb-[80px]">
-        <div className="max-w-container mx-auto">
+        <div className="max-w-container mx-auto px-3">
           <div className=" grid grid-cols-12 gap-[70px]">
-            <div className=" col-span-4">
+            <div className=" xl:col-span-4 col-span-6 ">
               <img src={footerlogo} alt="logo" />
               <p className=" text-white font-inter font-normal mt-[32px] text-[20px]">
                 Discover tranquility at Ngopi a sanctuary for unwinding, where
@@ -27,8 +27,8 @@ const Footer = () => {
               </h2>
             </div>
             <div className=" col-span-8">
-              <div className=" grid grid-cols-12">
-                <div className=" col-span-4">
+              <div className=" grid grid-cols-12 gap-5">
+                <div className=" xl:col-span-4 col-span-12">
                   <h2 className="text-[28px] text-white font-play font-normal mb-[24px]">
                     Quick Links
                   </h2>
@@ -47,7 +47,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className=" col-span-4">
+                <div className=" xl:col-span-4 col-span-12">
                   <h2 className="text-[28px] text-white font-play font-normal mb-[24px]">
                     Resources
                   </h2>
@@ -63,7 +63,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className=" col-span-4">
+                <div className="xl:col-span-4 col-span-6">
                   <h2 className="text-[28px] text-white font-play font-normal mb-[24px]">
                     Social Media
                   </h2>
@@ -102,12 +102,12 @@ const Footer = () => {
                 </h2>
                 <div className=" relative">
                   <input
-                    className="w-[835px] h-[78px] bg-[#ffffff3c] rounded-[16px] text-[20px] font-inter font-normal text-white pl-[62px]"
+                    className="xl:w-[835px] h-[78px] bg-[#ffffff3c] rounded-[16px] xl:text-[20px] font-inter font-normal text-white pl-[62px]"
                     type="email"
                     placeholder="name@domain.com"
                   />
                   <MdOutlineEmail className=" text-[30px] text-white absolute top-[22px] left-[22px]" />
-                  <button className="w-[179px] h-[62px] bg-common rounded-[8px] text-[20px] text-white font-inter font-normal absolute right-[4px] top-[7px]">
+                  <button className="xl:w-[179px] px-4 h-[62px] bg-common rounded-[8px] text-[20px] text-white font-inter font-normal absolute xl:right-[4px] right-[170px] top-[7px]">
                     Send
                   </button>
                 </div>
