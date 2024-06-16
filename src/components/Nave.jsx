@@ -15,11 +15,11 @@ const Nave = () => {
       <nav id="nave" className=" bg-white pt-[24px] pb-[24px]">
         <div className="max-w-container mx-auto px-3">
           <div className="flex items-center justify-between relative">
-            <img src={logo} alt="" />
+            <img src={logo} alt="logo" />
 
             <ul
-              className={`flex xl:gap-[56px] gap-5 text-[20px] xl:text-madeblack font-normal font-inter xl:flex-row flex-col absolute xl:static top-16 xl:bg-transparent bg-black text-white py-4 px-5 ${
-                manuShow ? "hidden" : "block"
+              className={` xl:gap-[56px] gap-5 text-[20px] xl:text-madeblack font-normal font-inter xl:flex-row flex-col absolute xl:static top-16 xl:bg-transparent bg-black text-white py-4 px-5 ${
+                manuShow ? "xl:flex hidden" : " xl:hidden flex"
               }`}
             >
               <li>
